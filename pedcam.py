@@ -48,7 +48,7 @@ while True:
 
  
 
-    cv2.imshow("Ped Detect", orig)
+    cv2.imshow("Ped Detect", frame)
     if(cv2.waitKey(1) & 0xFF == ord("q")):
         break
 camera.release()
